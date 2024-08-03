@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#introimg{
+    display: flex;
+    justify-content: center;    
+}
+#logo{
+    animation: 6s linear 0s infinite reverse forwards running logoplay;
+    transition-property: all;
+}
+@keyframes logoplay{
+    100%{
+        transform: translateX(-200px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+}
+#navbar{
+    display: flex;
+    gap: 500px;
+}
+#headh1{
+    color: tomato;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 100px;
+  ,margin-right: 20px;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.posters{
+    width: 700px;
+    height: 400px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 30px black;
+    color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+}

@@ -1,0 +1,68 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#introbar{
+    color: cornflowerblue;
+    margin-top: 84px;
+}
+#animationbar h4{
+    color:olive;
+    text-shadow: 1px 1px 1px black;
+     transition-property: all;
+    animation: 6s linear 2s infinite reverse forwards running playit ; 
+}
+@keyframes playit{
+    100%{
+        transform: translateX(-700px);
+    }
+    0%{
+        transform: translateX(1000px);
+    }
+}
+#outerbox{
+    display: flex;
+    justify-content: center;
+}
+.posters{
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 20px gray;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#box1{
+    grid-area: play1;
+}
+#box2{
+    grid-area: play2;
+}
+#box3{
+    grid-area: play3;
+}
+#box4{
+    grid-area: play4;
+}
+#box5{
+    grid-area: play5;
+}
+#box6{
+    grid-area: play6;
+}
+#boxes{
+    display: grid;
+    grid-template-areas: "play1 play2 play3 "
+    "play4 play5 play6";
+    gap: 40px;
+}
+.posters h3{
+    color: rgb(228, 78, 32);
+    text-decoration: none;
+}
+.posters p{
+    color: rgb(89, 109, 165);
+    text-decoration: none;
+}
