@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#center{
+    animation: 2s ease-out 3.5s 1 alternate forwards running centerbox;
+}
+@keyframes centerbox{
+    0%{
+        transform: translate(-700px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+#options{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 120px;
+    background-color: black;
+}
+#options #o1 p a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+}
+#o1{
+    display: flex;
+    gap: 15px;
+    margin-top: 45px;
+}
+#options #o2{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+#options #o2 a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    background-color:gainsboro;
+}
+#grid{
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 66vw;
+    display: flex;
+    justify-content: end;
+}
+#center{
+    border: solid 1px black;
+    box-shadow: 2px 2px 10px black;
+    display: grid;
+}
+
+#i1{
+    grid-area: image1;
+    
+}
+#i2{
+    grid-area: image2;
+
+}
+#i3{
+    grid-area: image3;
+
+}
+#i4{
+    grid-area: image4;
+
+}
+#center{
+    grid-template-areas: "image1" "image2"
+    "image3" "image4";
+    gap: 100px;
+    padding: 20px;
+}
+#i1{
+    transition-property: all;
+    opacity: 0.5;
+}
+#i2{
+    transition-property: all;
+    opacity: 0.5;
+}
+#i3{
+    transition-property: all;
+    opacity: 0.5;
+}
+#i4{
+    transition-property: all;
+    opacity: 0.5;
+}
+#i1:hover{
+    animation: 1s linear 0s 1 alternate forwards running image;
+    transform: scaleX(1.2) scaleY(1.2);
+}
+#i2:hover{
+    animation: 1s linear 0s 1 alternate forwards running image;
+    transform: scaleX(1.2) scaleY(1.2);
+}
+#i3:hover{
+    animation: 1s linear 0s 1 alternate forwards running image;
+    transform: scaleX(1.2) scaleY(1.2);
+
+}
+#i4:hover{
+    animation: 1s linear 0s 1 alternate forwards running image;
+    transform: scaleX(1.2) scaleY(1.2);
+
+}
+@keyframes image {
+      0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+#end{
+    background-color: rgba(42, 33, 22, 0.994);
+    color: rgb(227, 205, 205);
+    font-size: larger;
+    line-height: 15px;
+    flex-wrap: wrap;
+    padding-left: 30px ;
+}
+#doubt{
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 100px;
+    border-width: 8px;
+    background-color: red;
+    flex-wrap: wrap;
+}
+#body{
+    animation: 3.7s linear 0s 1 alternate forwards running body;
+}
+@keyframes body{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-100vh);
+    }
+}
+#photo{
+    animation: 3.7s linear 0s 1 alternate forwards running photo;
+}
+@keyframes photo{
+    0%{
+        opacity: 1;
+        
+    }
+    10%{
+        transform: scaleX(1.2);
+        transform: scaleY(1.2);
+    }
+    20%{
+        transform: scaleX(1.2);
+        transform: scaleY(1.2);
+    }
+    22%{
+        transform: scaleX(1);
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleX(1);
+        transform: scaleY(1);
+        transform: rotateX(180deg);
+    }
+    50%{
+        transform: rotateX(0deg);
+        transform: translateX(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-10000px);
+    }
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

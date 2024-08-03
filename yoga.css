@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#yoga h1{
+    font-variant: small-caps;
+    font-size: 80px;
+}
+#header{
+    display: flex;
+}
+#yoga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#rule{
+    color: rgb(246, 211, 169);
+}
+#collection{
+    margin: 20px;
+    padding: 10px;
+}
+#photo{
+    display: flex;
+    background-color: burlywood;
+    border: solid 4px rosybrown ;
+}
+.image{
+    animation: 8s linear 0s infinite reverse forwards running moveitlike;
+}
+@keyframes moveitlike{
+    100%{
+        transform: translateX(1800px);
+    }
+    0%{
+        transform: translateX(-1800px);
+    }
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    padding: 20px;
+    gap: 30px;
+}
+#question{
+    color: darkgreen;
+}
+#leftcontent{
+    height: 100%;
+    width: 50%;
+    padding-right:20px ;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-left:30px;
+    border:hidden 2px white;
+    box-shadow: 4px 4px 30px gray;
+    background-color: darkgoldenrod;
+    transition-property: all;
+}
+#leftcontent:hover{
+    scale: 1.9px;
+    transform: translateX(200px);
+}
+#rightcontent{
+    height: 100%;
+    width: 50%;
+    padding-left:20px ;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-right: 10px;
+    border:hidden 2px white;
+    box-shadow: 4px 4px 30px gray;
+    background-color: darkgoldenrod;
+    transition-property: all;
+}
+#rightcontent:hover{
+    scale: 1.9px;
+    transform: translateX(-200px);
+}
+#readmore a{
+    text-decoration: none;
+    color: royalblue;
+    background-color: rgb(248, 93, 42);
+}

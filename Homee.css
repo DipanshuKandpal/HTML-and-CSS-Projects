@@ -1,0 +1,69 @@
+body{
+    background-color: burlywood;
+}
+#img{
+    
+    float: right;
+    height: 600px;
+    width: 200px;
+}
+#box1{
+    font-size:xx-large;
+    font-stretch: expanded;
+    color:teal;
+border-style: dotted;
+border-radius: 5vw;
+}
+#imgholder{
+    border-style: groove;
+    color: slategray;
+    background-color:snow;
+}
+iframe{
+    background-color: snow;
+}
+h1{
+    font-size: xx-large;
+    font-variant: small-caps;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 4px;
+    
+}
+#about{
+    border-style:groove;
+    margin: 0px;
+    padding: 10px;
+    border-color: azure;
+    border-width:6px ;
+    background-color:thistle;
+    border-color: steelblue;
+    font-size: x-large;
+}
+#footer{
+    border-style: solid;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+#u1{
+    color: darkgreen;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr{
+    color: wheat;
+
+}
+#photo{
+    position: fixed;
+}
+.visit{
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 100px;
+    border-width: 8px;
+    background-color: darkred;
+    width: 150px;
+    
+
+}

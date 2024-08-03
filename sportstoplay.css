@@ -1,0 +1,274 @@
+#dot h1{
+    color: rgba(127, 80, 171, 0.737);
+    font-weight: lighter;
+}
+#backdot h1{
+    color: rgba(127, 80, 171, 0.737);
+    font-weight: lighter;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+#dot{
+    animation: 4s ease-in-out 0s infinite alternate backwards running play;
+}
+@keyframes play{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(475px);
+    }
+}
+#backdot{
+    animation: 4s ease-in-out 0s infinite alternate backwards running backplay;
+}
+@keyframes backplay{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-475px);
+    }
+}
+#heading{
+    color: rgba(127, 80, 171, 0.737);
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainbox{
+    width: 650px;
+    height:1000px ;
+    border: solid 2px grey;
+    box-shadow: 1px 1px 10px gray;
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+#main #leftdecoration #b1{
+    background-color:burlywood;
+}
+#main #leftdecoration #b2{
+    background-color: royalblue;
+}
+#main #leftdecoration #b3{
+    background-color:rgb(253, 212, 152);
+}
+#main #leftdecoration #b4{
+    background-color:chocolate;
+}
+#main #leftdecoration #b5{
+    background-color:violet;
+}
+#main #rightdecoration #b6{
+    background-color: tomato;
+}
+#main #rightdecoration #b7{
+    background-color:teal;
+}
+#main #rightdecoration #b8{
+    background-color:slateblue;
+}
+#main #rightdecoration #b9{
+    background-color:salmon;
+}
+#main #rightdecoration #b10{
+    background-color: steelblue;
+}
+.decoration{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#top{
+    display: flex;
+    gap: 40px;
+}
+#end{
+    display: flex;
+    gap: 40px;
+}
+#top #b1{
+    animation: 1s linear 0s infinite reverse forwards running dropplay1;
+}
+#top #b2{
+    animation: 2s linear 1s infinite reverse forwards running dropplay2;
+}
+#top #b3{
+    animation: 3s linear 2s infinite reverse forwards running dropplay3;
+}
+#top #b4{
+    animation: 2s linear 1s infinite reverse forwards running dropplay2;
+}
+#top #b5{
+    animation: 1s linear 0s infinite reverse forwards running dropplay1;
+}
+#top #b6{
+    animation: 1s linear 0s infinite reverse forwards running dropplay1;
+}
+#top #b7{
+    animation: 2s linear 1s infinite reverse forwards running dropplay2;
+}
+#top #b8{
+    animation: 3s linear 2s infinite reverse forwards running dropplay3;
+}
+#top #b9{
+    animation: 2s linear 1s infinite reverse forwards running dropplay2;
+}
+#top #b10{
+    animation: 1s linear 0s infinite reverse forwards running dropplay1;
+}
+@keyframes dropplay1{
+    100%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(200px);
+    }
+    30%{
+        transform: translateY(350px);
+    }
+    0%{
+        transform: translateY(500px);
+    }
+}
+@keyframes dropplay2{
+    100%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(200px);
+    }
+    30%{
+        transform: translateY(350px);
+    }
+    0%{
+        transform: translateY(500px);
+    }
+}
+@keyframes dropplay3{
+    100%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(200px);
+    }
+    30%{
+        transform: translateY(350px);
+    }
+    0%{
+        transform: translateY(500px);
+    }
+}
+#end #b1{
+    animation: 1s linear 0s infinite reverse forwards running dropplay4;
+}
+#end #b2{
+    animation: 2s linear 1s infinite reverse forwards running dropplay5;
+}
+#end #b3{
+    animation: 3s linear 2s infinite reverse forwards running dropplay6;
+}
+#end #b4{
+    animation: 2s linear 1s infinite reverse forwards running dropplay5;
+}
+#end #b5{
+    animation: 1s linear 0s infinite reverse forwards running dropplay4;
+}
+#end #b6{
+    animation: 1s linear 0s infinite reverse forwards running dropplay4;
+}
+#end #b7{
+    animation: 2s linear 1s infinite reverse forwards running dropplay5;
+}
+#end #b8{
+    animation: 3s linear 2s infinite reverse forwards running dropplay6;
+}
+#end #b9{
+    animation: 2s linear 1s infinite reverse forwards running dropplay5;
+}
+#end #b10{
+    animation: 1s linear 0s infinite reverse forwards running dropplay4;
+}
+@keyframes dropplay4{
+    0%{
+        transform: translateY(-500px);
+    }
+    30%{
+        transform: translateY(-350px);
+    }
+    60%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes dropplay5{
+    0%{
+        transform: translateY(-500px);
+    }
+    30%{
+        transform: translateY(-350px);
+    }
+    60%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes dropplay6{
+    0%{
+        transform: translateY(-500px);
+    }
+    30%{
+        transform: translateY(-350px);
+    }
+    60%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mainbox h1{
+    color: rgb(46, 87, 6);
+}
+#verticalline{
+    width: 50%;
+    height: 200px;
+    border: solid 1px white;
+    box-shadow: 2px 2px 20px gray;
+    padding-left: 50px;
+    color:rgb(164, 119, 7);
+}
+#select{
+    color:crimson;
+}
+#apply{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:darkgreen ;
+    display: flex;
+    justify-content: center;
+}
+#apply a{
+    color: yellow;
+    text-decoration: none;
+}

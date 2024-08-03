@@ -1,0 +1,51 @@
+#gallery{
+    border:solid black 2px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: "Playwrite HR", cursive;
+    font-size: xx-large;
+    color:teal;
+    flex-wrap: wrap;
+}
+#doc{
+    font-family: "Playwrite HR", cursive; 
+    font-size: x-large;
+    flex-wrap: wrap;
+}
+fieldset{
+    height: 150px;
+    overflow: scroll;
+    display: flex;
+}
+body{
+    flex-wrap: wrap;
+
+}
+#doubt{
+    border-style: solid;
+    border-color: crimson;
+    border-radius: 100px;
+    border-width: 8px;
+    background-color: red;
+    flex-wrap: wrap;
+}
+#end{
+    background-color: rgba(0, 0, 0, 0.653);
+    color: burlywood;
+    font-size: larger;
+    line-height: 15px;
+    flex-wrap: wrap;
+}
+tr{
+    flex-wrap: wrap;
+}
+pre{
+    flex-wrap: wrap;
+}
+.way{
+    display: flex;
+    flex-wrap: wrap;
+}
